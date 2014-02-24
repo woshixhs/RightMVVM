@@ -19,6 +19,17 @@
 		1D3F4AB718BA73EB007CAE39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3F4A9F18BA73EB007CAE39 /* UIKit.framework */; };
 		1D3F4ABF18BA73EB007CAE39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F4ABD18BA73EB007CAE39 /* InfoPlist.strings */; };
 		1D3F4AC118BA73EB007CAE39 /* RightMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F4AC018BA73EB007CAE39 /* RightMVVMTests.m */; };
+		1D3F4ACB18BA7418007CAE39 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3F4ACA18BA7418007CAE39 /* Social.framework */; };
+		1D3F4ACD18BA74A0007CAE39 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3F4ACC18BA74A0007CAE39 /* Accounts.framework */; };
+		970461230D84D0C91C75DE75 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97046DC00A9835516E90A619 /* BaseTableViewController.m */; };
+		970464D6F72B7C062A471A2E /* TweetDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97046873389346AD9783D010 /* TweetDetailsViewController.m */; };
+		9704652FB6802AE9CBC62008 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97046653A51F4A986BE1C0FC /* FeedViewModel.m */; };
+		970465778E150711D566995E /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 97046459E51FD0702357273B /* Twitter.m */; };
+		97046A9B99BEB42307A8BE22 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9704671A75328B3F6FB2340D /* BaseViewModel.m */; };
+		97046ABCBBD466F0F7E86687 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970460630B64867737BCC59E /* FeedViewController.m */; };
+		97046BFFCFE849E71CA9BD0B /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 970467FDE93828890C145242 /* FeedTableViewCell.m */; };
+		97046D79A0AA2FBA2D9B31F3 /* TweetDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97046DD85FF4F9A93D3758E2 /* TweetDetailsViewModel.m */; };
+		9E4ACCA79ACF4CAAB5E5CA0D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB41CDBE7BD147AC81D86681 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,27 @@
 		1D3F4ABC18BA73EB007CAE39 /* RightMVVMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RightMVVMTests-Info.plist"; sourceTree = "<group>"; };
 		1D3F4ABE18BA73EB007CAE39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D3F4AC018BA73EB007CAE39 /* RightMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightMVVMTests.m; sourceTree = "<group>"; };
+		1D3F4ACA18BA7418007CAE39 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1D3F4ACC18BA74A0007CAE39 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		207B3CA9639E44B8B7187E19 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		970460630B64867737BCC59E /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		9704628B3752B7965B36B223 /* FeedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewModel.h; sourceTree = "<group>"; };
+		97046459E51FD0702357273B /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		97046563144597210E31E834 /* TweetDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailsViewController.h; sourceTree = "<group>"; };
+		97046653A51F4A986BE1C0FC /* FeedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewModel.m; sourceTree = "<group>"; };
+		9704671A75328B3F6FB2340D /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		970467FDE93828890C145242 /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		97046873389346AD9783D010 /* TweetDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailsViewController.m; sourceTree = "<group>"; };
+		97046AB958A02785564EA8B0 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		97046AD47392FF17C7980EB0 /* TableViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewViewModel.h; sourceTree = "<group>"; };
+		97046AE36EF5FB688E0322D5 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		97046C4644787D61C1B661FD /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		97046CF68448C5BE340BE5B4 /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		97046DC00A9835516E90A619 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		97046DD85FF4F9A93D3758E2 /* TweetDetailsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailsViewModel.m; sourceTree = "<group>"; };
+		97046E414EAAF95457FCD82D /* TweetDetailsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailsViewModel.h; sourceTree = "<group>"; };
+		97046F0BCAB3C8A4910B7E13 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		DB41CDBE7BD147AC81D86681 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +87,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3F4ACD18BA74A0007CAE39 /* Accounts.framework in Frameworks */,
+				1D3F4ACB18BA7418007CAE39 /* Social.framework in Frameworks */,
 				1D3F4A9E18BA73EB007CAE39 /* CoreGraphics.framework in Frameworks */,
 				1D3F4AA018BA73EB007CAE39 /* UIKit.framework in Frameworks */,
 				1D3F4A9C18BA73EB007CAE39 /* Foundation.framework in Frameworks */,
+				9E4ACCA79ACF4CAAB5E5CA0D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,7 @@
 				1D3F4ABA18BA73EB007CAE39 /* RightMVVMTests */,
 				1D3F4A9A18BA73EB007CAE39 /* Frameworks */,
 				1D3F4A9918BA73EB007CAE39 /* Products */,
+				207B3CA9639E44B8B7187E19 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +132,13 @@
 		1D3F4A9A18BA73EB007CAE39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D3F4ACC18BA74A0007CAE39 /* Accounts.framework */,
+				1D3F4ACA18BA7418007CAE39 /* Social.framework */,
 				1D3F4A9B18BA73EB007CAE39 /* Foundation.framework */,
 				1D3F4A9D18BA73EB007CAE39 /* CoreGraphics.framework */,
 				1D3F4A9F18BA73EB007CAE39 /* UIKit.framework */,
 				1D3F4AB418BA73EB007CAE39 /* XCTest.framework */,
+				DB41CDBE7BD147AC81D86681 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +150,23 @@
 				1D3F4AAB18BA73EB007CAE39 /* AppDelegate.m */,
 				1D3F4AAD18BA73EB007CAE39 /* Images.xcassets */,
 				1D3F4AA218BA73EB007CAE39 /* Supporting Files */,
+				970460630B64867737BCC59E /* FeedViewController.m */,
+				97046AB958A02785564EA8B0 /* FeedViewController.h */,
+				97046653A51F4A986BE1C0FC /* FeedViewModel.m */,
+				9704628B3752B7965B36B223 /* FeedViewModel.h */,
+				97046459E51FD0702357273B /* Twitter.m */,
+				97046F0BCAB3C8A4910B7E13 /* Twitter.h */,
+				97046DC00A9835516E90A619 /* BaseTableViewController.m */,
+				97046AE36EF5FB688E0322D5 /* BaseTableViewController.h */,
+				9704671A75328B3F6FB2340D /* BaseViewModel.m */,
+				97046C4644787D61C1B661FD /* BaseViewModel.h */,
+				97046AD47392FF17C7980EB0 /* TableViewViewModel.h */,
+				97046873389346AD9783D010 /* TweetDetailsViewController.m */,
+				97046563144597210E31E834 /* TweetDetailsViewController.h */,
+				97046DD85FF4F9A93D3758E2 /* TweetDetailsViewModel.m */,
+				97046E414EAAF95457FCD82D /* TweetDetailsViewModel.h */,
+				970467FDE93828890C145242 /* FeedTableViewCell.m */,
+				97046CF68448C5BE340BE5B4 /* FeedTableViewCell.h */,
 			);
 			path = RightMVVM;
 			sourceTree = "<group>";
@@ -151,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D3F4AC418BA73EB007CAE39 /* Build configuration list for PBXNativeTarget "RightMVVM" */;
 			buildPhases = (
+				16F1DAB7F4E9455B89D16543 /* Check Pods Manifest.lock */,
 				1D3F4A9418BA73EB007CAE39 /* Sources */,
 				1D3F4A9518BA73EB007CAE39 /* Frameworks */,
 				1D3F4A9618BA73EB007CAE39 /* Resources */,
+				AC6DF40C033B40E68E65F8E8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +264,8 @@
 			mainGroup = 1D3F4A8F18BA73EB007CAE39;
 			productRefGroup = 1D3F4A9918BA73EB007CAE39 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				1D3F4A9718BA73EB007CAE39 /* RightMVVM */,
@@ -234,6 +294,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16F1DAB7F4E9455B89D16543 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6DF40C033B40E68E65F8E8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D3F4A9418BA73EB007CAE39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,6 +334,14 @@
 			files = (
 				1D3F4AAC18BA73EB007CAE39 /* AppDelegate.m in Sources */,
 				1D3F4AA818BA73EB007CAE39 /* main.m in Sources */,
+				97046ABCBBD466F0F7E86687 /* FeedViewController.m in Sources */,
+				9704652FB6802AE9CBC62008 /* FeedViewModel.m in Sources */,
+				970465778E150711D566995E /* Twitter.m in Sources */,
+				970461230D84D0C91C75DE75 /* BaseTableViewController.m in Sources */,
+				97046A9B99BEB42307A8BE22 /* BaseViewModel.m in Sources */,
+				970464D6F72B7C062A471A2E /* TweetDetailsViewController.m in Sources */,
+				97046D79A0AA2FBA2D9B31F3 /* TweetDetailsViewModel.m in Sources */,
+				97046BFFCFE849E71CA9BD0B /* FeedTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +457,7 @@
 		};
 		1D3F4AC518BA73EB007CAE39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207B3CA9639E44B8B7187E19 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -369,6 +471,7 @@
 		};
 		1D3F4AC618BA73EB007CAE39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207B3CA9639E44B8B7187E19 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

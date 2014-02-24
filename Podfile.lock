@@ -1,0 +1,22 @@
+PODS:
+  - ReactiveCocoa (2.2.4):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/Core (2.2.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.2.4)
+  - ReactiveViewModel (0.2):
+    - ReactiveCocoa (~> 2.1)
+  - SVProgressHUD (1.0)
+
+DEPENDENCIES:
+  - ReactiveCocoa
+  - ReactiveViewModel
+  - SVProgressHUD (~> 1.0)
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: 953a45dda30674fe704d1d9c77cc874141742f47
+  ReactiveViewModel: f636ab3e06b5e69664b69c883fcdb457ab5cb0cb
+  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
+
+COCOAPODS: 0.29.0
